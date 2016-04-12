@@ -72,7 +72,7 @@ ZSH_CUSTOM=$DOTFILES/custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(dircycle emoji-clock encode46 extract gitignore grunt)
+plugins=(dircycle emoji-clock encode46 extract gitignore grunt zsh-syntax-highlighting)
 
 # User configuration
 
