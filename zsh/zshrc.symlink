@@ -6,13 +6,15 @@ export DOTFILES=$HOME/.dotfiles
 export CODE=$HOME/Documents/code
 export PROJECT=$CODE/project
 
+setopt EXTENDED_GLOB
+
 if [[ -a $HOME/.localrc ]]
 then
   source $HOME/.localrc
 fi
 
 typeset -U config_files
-config_files=($DOTFILES/**/*.zsh)
+config_files=($DOTFILES/(^custom/)#*.zsh)
 
 for file in ${(M)config_files:#*/path.zsh}
 do
@@ -66,7 +68,7 @@ ZSH_THEME="lambda-mod"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=$DOTFILES/custom
+# ZSH_CUSTOM=$DOTFILES/custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
