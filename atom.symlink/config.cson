@@ -1,0 +1,27 @@
+"*":
+  autosave:
+    enabled: true
+  build: {}
+  "build-cargo": {}
+  core: {}
+  editor:
+    fontFamily: "Input Mono"
+    fontSize: 13
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 2
+    tabType: "soft"
+  emmet: {}
+  "exception-reporting":
+    userId: "c5932ab4-c7b3-cca9-5d8e-3f52baf97e69"
+  "linter-rust": {}
+  racer:
+    racerBinPath: "C:\\Users\\PedenT\\.cargo\\bin\\racer.exe"
+    rustSrcPath: "C:\\Users\\PedenT\\Documents\\code\\rustc-1.7.0\\src"
+  welcome:
+    showOnStartup: false
+".rust.source":
+  editor:
+    tabLength: 2
