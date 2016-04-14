@@ -1,6 +1,6 @@
 [user]
-	name = TJ Peden
-	email = tj.peden@tjcoding.com
+	name = AUTHORNAME
+	email = AUTHOREMAIL
 [core]
 	editor = 'C:\\Program Files (x86)\\Microsoft VS Code\\Code.exe' -n -w
 	trustctime = false
@@ -23,7 +23,7 @@
 [color]
 	ui = true
 [credential]
-	helper = cache --timeout=3600
+	helper = GIT_CREDENTIAL_HELPER --timeout=3600
 [merge]
 	tool = vimdiff
 [mergetool]
