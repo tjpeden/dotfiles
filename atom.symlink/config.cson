@@ -3,7 +3,11 @@
     enabled: true
   build: {}
   "build-cargo": {}
-  core: {}
+  core:
+    disabledPackages: [
+      "fonts"
+      "sass-autocompile"
+    ]
   editor:
     fontFamily: "Input Mono"
     invisibles: {}
@@ -19,6 +23,8 @@
   racer:
     racerBinPath: "C:\\Users\\PedenT\\.cargo\\bin\\racer.exe"
     rustSrcPath: "C:\\Users\\PedenT\\Documents\\code\\rustc-1.7.0\\src"
+  "toggle-quotes":
+    quoteCharacters: "\"'`"
   welcome:
     showOnStartup: false
 ".rust.source":
