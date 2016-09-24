@@ -1,6 +1,5 @@
 g() {
-  if [[ $# > 0 ]]
-  then
+  if [[ $# > 0 ]]; then
     git "$@"
   else
     git status --short --branch
